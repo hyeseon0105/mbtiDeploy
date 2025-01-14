@@ -1,0 +1,16 @@
+body{
+  background-color: #f6fcff;
+  background-image: url('../images/main_bg.jpg');
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+/* 이미지 정중앙위치 */
+.character {
+  width: 100%;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+ /* 이미지는 인라인 요소라 블럭으로 바꿔줘야함 */
+  /* display: block; */
+ margin-bottom: 40px;
+}
